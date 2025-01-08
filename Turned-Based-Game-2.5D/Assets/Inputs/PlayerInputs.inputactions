@@ -1,0 +1,73 @@
+{
+    "name": "PlayerInputs",
+    "maps": [
+        {
+            "name": "GameControls",
+            "id": "4abeaa29-3155-4e7d-a12b-5eae34b0ba66",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "2478a7ec-7994-415c-9f17-7b99040f355d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "79dd3596-acef-417b-ab55-6aa9891476b9",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77e8df8a-ac85-4d5d-9afa-ee41bd2828c1",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UIControls",
+            "id": "322f3a68-5e6b-48d0-81ef-cd1f279088dc",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "14083eaf-8e92-449a-b531-bb5b3dca4861",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d718cd33-130d-4bad-8a07-67b733acf577",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
