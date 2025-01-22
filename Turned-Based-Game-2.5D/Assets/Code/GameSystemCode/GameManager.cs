@@ -31,7 +31,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void PauseMenu()
+    public void PauseMenu() //to pause game for player
     {
         if(isPause)
         {
@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
         }
         
     }
+
     
     IEnumerator DeadTime()
     {
