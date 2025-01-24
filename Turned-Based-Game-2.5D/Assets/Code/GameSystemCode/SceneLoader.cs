@@ -17,4 +17,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("OverWorld");
     }
+    public void AndrewTestRoom()
+    {
+        SceneManager.LoadScene("AndrewTestRoom");
+    }
 }
