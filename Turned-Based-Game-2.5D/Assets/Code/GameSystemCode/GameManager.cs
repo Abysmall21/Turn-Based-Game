@@ -10,9 +10,7 @@ public class GameManager : MonoBehaviour
     public GameObject grass;
     public GameObject cube;
 
-    [Header("Pause Menu")]
-    public GameObject pauseText;
-    public bool isPause;
+    
 
     InputAction clickAction;
 
@@ -22,7 +20,6 @@ public class GameManager : MonoBehaviour
         
 
         grass.GetComponent<SpriteRenderer>().color = Color.red;
-        pauseText.gameObject.SetActive(false);
         StartCoroutine(DeadTime());
     }
 
@@ -31,20 +28,7 @@ public class GameManager : MonoBehaviour
     {
         
     }
-    public void PauseMenu() //to pause game for player
-    {
-        if(isPause)
-        {
-            pauseText.gameObject.SetActive(true);
-            isPause = false;
-        }
-        else if(!isPause)
-        {
-            pauseText.gameObject.SetActive(false);
-            isPause = true;
-        }
-        
-    }
+    
 
     
     IEnumerator DeadTime()

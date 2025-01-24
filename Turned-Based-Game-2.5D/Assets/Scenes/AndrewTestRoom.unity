@@ -1211,7 +1211,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f6711c5fc0a3336478e77bd0b6eb9769, type: 2}
+  - {fileID: 2100000, guid: deffff7a641c4dd46bffc74c2de9abff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1358,6 +1358,8 @@ GameObject:
   m_Component:
   - component: {fileID: 970249990}
   - component: {fileID: 970249989}
+  - component: {fileID: 970249991}
+  - component: {fileID: 970249992}
   m_Layer: 0
   m_Name: GameManagerNode
   m_TagString: Untagged
@@ -1379,8 +1381,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grass: {fileID: 1931798815}
   cube: {fileID: 2031119610}
-  pauseText: {fileID: 555637909}
-  isPause: 0
 --- !u!4 &970249990
 Transform:
   m_ObjectHideFlags: 0
@@ -1396,6 +1396,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &970249991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970249988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def451ea79d634c43b9f06b841c28891, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseText: {fileID: 555637909}
+  isPause: 0
+--- !u!114 &970249992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970249988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 452c159da77c223488a4352493ebd100, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &974188315
 GameObject:
   m_ObjectHideFlags: 0
@@ -1747,8 +1773,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 970249989}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 970249991}
+        m_TargetAssemblyTypeName: Pause, Assembly-CSharp
         m_MethodName: PauseMenu
         m_Mode: 1
         m_Arguments:
