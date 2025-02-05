@@ -7,7 +7,7 @@ public class MenuManager : MonoBehaviour
 {
     public void SwitchScene(string sceneName)
     {
-        // Loads the specified scene Balthazar:"You can type the name of the scene 
+        // Loads the specified scene Balthazar:"You can type the name of the scene to change to
         SceneManager.LoadScene(sceneName);
     }
     // This method will be called to quit the application
