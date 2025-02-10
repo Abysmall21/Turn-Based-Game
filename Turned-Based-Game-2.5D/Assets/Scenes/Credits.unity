@@ -319,10 +319,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 18
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 2
+    m_MinSize: 1
     m_MaxSize: 40
     m_Alignment: 1
     m_AlignByGeometry: 0
@@ -335,9 +335,15 @@ MonoBehaviour:
     Andrew
 
 
+    Art
+
+    Balthazar Reyes
+
+
     Programmers
 
-    Andrew, Balthazar & Jorge
+    Andrew,
+    Balthazar Reyes & Jorge
 
 
     Story
@@ -345,10 +351,23 @@ MonoBehaviour:
     Jorge
 
 
-    Level
-    Design
+    Level Design
 
-    Balthazar & Jorge'
+    Balthazar
+    Reyes & Jorge
+
+
+    Menu Design
+
+    Balthazar Reyes
+
+
+    Music
+
+    Fantasy
+    Battle Music
+
+    Tyler Cunningham'
 --- !u!222 &556321402
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -626,7 +645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: cd3f7a5b44855714c9a05ec6439c31b1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -748,6 +767,63 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &1496135389
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 433
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 286.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1188055334041066058, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093842907703460276, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
+      propertyPath: m_Name
+      value: Audio Source
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8e4c776c498df44bde32fb525dfa7b, type: 3}
 --- !u!1 &1752180909
 GameObject:
   m_ObjectHideFlags: 0
@@ -784,7 +860,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 500, y: 500}
+  m_SizeDelta: {x: 500, y: 487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1752180911
 MonoBehaviour:
@@ -993,3 +1069,4 @@ SceneRoots:
   - {fileID: 1148358994}
   - {fileID: 63462953}
   - {fileID: 1860738220}
+  - {fileID: 1496135389}
