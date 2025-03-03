@@ -33,10 +33,10 @@ public class SpawnPlayer : MonoBehaviour
         switch (direct)
         {
             case Dir.left:
-                Player.transform.localScale = new Vector3(-1, 1, 1);
+                Player.transform.localScale = new Vector3(1, 1, 1);
                     break;
             case Dir.right:
-                Player.transform.localScale = new Vector3(1, 1, 1);
+                Player.transform.localScale = new Vector3(-1, 1, 1);
                     break;
         }
     }
