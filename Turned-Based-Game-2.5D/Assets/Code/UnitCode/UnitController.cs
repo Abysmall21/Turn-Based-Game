@@ -8,7 +8,7 @@ public class UnitController : MonoBehaviour
 {
     public GameObject[] Sprite; //Sprite Models
     public UnitStatList _UnitStatList; //Unit Stat list
-    public Slider slider;
+    public string unitName = "";
 
     public bool IsSelected; //if player click on
 
@@ -21,13 +21,13 @@ public class UnitController : MonoBehaviour
     {
         UnitMaxHealth = _UnitStatList.Health * Sprite.Length;
         UnitHealth = UnitMaxHealth;
-        slider.maxValue = UnitMaxHealth;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        slider.value = UnitHealth;
+        
         if (IsSelected) //when player click on unit
         {   
             Debug.Log("Click on " + name);
