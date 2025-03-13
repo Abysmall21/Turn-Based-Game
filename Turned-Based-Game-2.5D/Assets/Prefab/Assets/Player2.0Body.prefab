@@ -211,7 +211,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3461182265765988945}
   - component: {fileID: 414571041735834068}
-  - component: {fileID: 2144891307195971811}
   m_Layer: 0
   m_Name: Player2.0Body
   m_TagString: Untagged
@@ -219,15 +218,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3461182265765988945
-RectTransform:
+--- !u!4 &3461182265765988945
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4265034888989782287}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -235,11 +235,6 @@ RectTransform:
   - {fileID: 8021592203522878809}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0.5}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &414571041735834068
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -292,14 +287,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!222 &2144891307195971811
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4265034888989782287}
-  m_CullTransparentMesh: 1
 --- !u!1 &5942889247404322019
 GameObject:
   m_ObjectHideFlags: 0
