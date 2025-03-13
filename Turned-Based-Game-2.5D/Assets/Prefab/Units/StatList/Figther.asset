@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0c4810a137334f438629f5f46095202, type: 3}
   m_Name: Figther
   m_EditorClassIdentifier: 
+  unitClass: 0
   Health: 10
   MinDamage: 1
   MaxDamage: 5
   Range: 1
   Armor: 5
+  Speed: 0
+  UnitName: Pack of Swordmen

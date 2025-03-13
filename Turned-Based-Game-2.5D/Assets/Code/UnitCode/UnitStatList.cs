@@ -16,6 +16,7 @@ public class UnitStatList : ScriptableObject
     public int Range;
     public int Armor;
     public int Speed;
+    public string UnitName;
     
     public enum UnitClass //class type
     {

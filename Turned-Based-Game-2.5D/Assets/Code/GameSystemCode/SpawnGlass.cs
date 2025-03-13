@@ -9,10 +9,6 @@ public class SpawnGlass : MonoBehaviour
     [Header("Spawn Gird")]
     public int x = 10;
     public int y = 10;
-
-    public int r = 10;
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -42,10 +38,11 @@ public class SpawnGlass : MonoBehaviour
         for (int i = 0;  i > a; i++)
         {
             Vector3 pos = new Vector3(Random.Range(-x,x),Random.Range(-y,y), a);
-            Grass = Instantiate(Grass, pos, Quaternion.identity);
-
+            Grass.transform.position = pos;
+            Grass = Instantiate(Grass,Grass.transform);
+            Grass.transform.position = pos;
         }
-        
+
     }
 
     public enum Desenty
